@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  TezosHackrHaus
-//
-//  Created by Christian Grinling on 25/11/2022.
-//
-
 import UIKit
 import RealityKit
 
@@ -22,3 +15,4 @@ class ViewController: UIViewController {
         arView.scene.anchors.append(boxAnchor)
     }
 }
+
