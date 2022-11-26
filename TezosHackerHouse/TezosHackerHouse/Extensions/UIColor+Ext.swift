@@ -10,6 +10,10 @@ extension UIColor {
         return UIColor(named: "VarsityBlack")!
     }
     
+    public class var metaBlue: UIColor {
+        return UIColor(named: "MetaBlue")!
+    }
+    
     public class var varsitySubtitle: UIColor {
         return UIColor(named: "Subtitle")!
     }

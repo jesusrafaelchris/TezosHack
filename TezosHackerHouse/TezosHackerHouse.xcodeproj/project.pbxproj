@@ -26,6 +26,13 @@
 		A7AEADDA29322DCB00696EF2 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEADD429322DCB00696EF2 /* UITableView+Ext.swift */; };
 		A7AEADDB29322DCB00696EF2 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEADD529322DCB00696EF2 /* UIView+Ext.swift */; };
 		A7AEADDD29323CF500696EF2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEADDC29323CF500696EF2 /* HomeViewController.swift */; };
+		A7AEADE0293276AE00696EF2 /* Glaip in Frameworks */ = {isa = PBXBuildFile; productRef = A7AEADDF293276AE00696EF2 /* Glaip */; };
+		A7AEADE4293295FF00696EF2 /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEADE3293295FF00696EF2 /* ExperienceView.swift */; };
+		A7AEADE62932B35E00696EF2 /* BidStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEADE52932B35E00696EF2 /* BidStruct.swift */; };
+		A7AEADE82932B3B200696EF2 /* BidCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEADE72932B3B200696EF2 /* BidCell.swift */; };
+		A7AEADEA2932C72900696EF2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEADE92932C72900696EF2 /* TabBarController.swift */; };
+		A7AEADEC2932C76200696EF2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEADEB2932C76200696EF2 /* ProfileViewController.swift */; };
+		A7AEADEE2932CC4300696EF2 /* BiddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEADED2932CC4300696EF2 /* BiddingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +76,12 @@
 		A7AEADD429322DCB00696EF2 /* UITableView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
 		A7AEADD529322DCB00696EF2 /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		A7AEADDC29323CF500696EF2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A7AEADE3293295FF00696EF2 /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceView.swift; sourceTree = "<group>"; };
+		A7AEADE52932B35E00696EF2 /* BidStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidStruct.swift; sourceTree = "<group>"; };
+		A7AEADE72932B3B200696EF2 /* BidCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidCell.swift; sourceTree = "<group>"; };
+		A7AEADE92932C72900696EF2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A7AEADEB2932C76200696EF2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A7AEADED2932CC4300696EF2 /* BiddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiddingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7AEADE0293276AE00696EF2 /* Glaip in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,15 +135,21 @@
 			children = (
 				A7AEADCD29322DB500696EF2 /* Extensions */,
 				80C2738D29322AD30077FCE8 /* AppDelegate.swift */,
+				A7AEADE3293295FF00696EF2 /* ExperienceView.swift */,
 				80C2738F29322AD30077FCE8 /* SceneDelegate.swift */,
 				A7AEADDC29323CF500696EF2 /* HomeViewController.swift */,
 				80C273BD29322AF60077FCE8 /* LoginViewController.swift */,
+				A7AEADED2932CC4300696EF2 /* BiddingViewController.swift */,
+				A7AEADE92932C72900696EF2 /* TabBarController.swift */,
 				A7AEADBA29322C9700696EF2 /* TopBarView.swift */,
+				A7AEADE72932B3B200696EF2 /* BidCell.swift */,
+				A7AEADE52932B35E00696EF2 /* BidStruct.swift */,
 				80C2739129322AD30077FCE8 /* ViewController.swift */,
 				80C2739329322AD30077FCE8 /* Main.storyboard */,
 				80C2739629322AD50077FCE8 /* Assets.xcassets */,
 				80C2739829322AD50077FCE8 /* LaunchScreen.storyboard */,
 				80C2739B29322AD50077FCE8 /* Info.plist */,
+				A7AEADEB2932C76200696EF2 /* ProfileViewController.swift */,
 			);
 			path = TezosHackerHouse;
 			sourceTree = "<group>";
@@ -181,6 +201,9 @@
 			dependencies = (
 			);
 			name = TezosHackerHouse;
+			packageProductDependencies = (
+				A7AEADDF293276AE00696EF2 /* Glaip */,
+			);
 			productName = TezosHackerHouse;
 			productReference = 80C2738A29322AD30077FCE8 /* TezosHackerHouse.app */;
 			productType = "com.apple.product-type.application";
@@ -253,6 +276,9 @@
 				Base,
 			);
 			mainGroup = 80C2738129322AD30077FCE8;
+			packageReferences = (
+				A7AEADDE293276AE00696EF2 /* XCRemoteSwiftPackageReference "Glaip" */,
+			);
 			productRefGroup = 80C2738B29322AD30077FCE8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -299,15 +325,21 @@
 				A7AEADDA29322DCB00696EF2 /* UITableView+Ext.swift in Sources */,
 				A7AEADBB29322C9700696EF2 /* TopBarView.swift in Sources */,
 				80C273BE29322AF60077FCE8 /* LoginViewController.swift in Sources */,
+				A7AEADE62932B35E00696EF2 /* BidStruct.swift in Sources */,
 				80C2739229322AD30077FCE8 /* ViewController.swift in Sources */,
 				A7AEADD929322DCB00696EF2 /* UISearchTextField+Ext.swift in Sources */,
+				A7AEADEC2932C76200696EF2 /* ProfileViewController.swift in Sources */,
+				A7AEADEA2932C72900696EF2 /* TabBarController.swift in Sources */,
 				80C2738E29322AD30077FCE8 /* AppDelegate.swift in Sources */,
+				A7AEADEE2932CC4300696EF2 /* BiddingViewController.swift in Sources */,
+				A7AEADE82932B3B200696EF2 /* BidCell.swift in Sources */,
 				80C2739029322AD30077FCE8 /* SceneDelegate.swift in Sources */,
 				A7AEADD729322DCB00696EF2 /* UIColor+Ext.swift in Sources */,
 				A7AEADDB29322DCB00696EF2 /* UIView+Ext.swift in Sources */,
 				A7AEADCF29322DC200696EF2 /* UIButton+Ext.swift in Sources */,
 				A7AEADD829322DCB00696EF2 /* UICollectionView+Ext.swift in Sources */,
 				A7AEADDD29323CF500696EF2 /* HomeViewController.swift in Sources */,
+				A7AEADE4293295FF00696EF2 /* ExperienceView.swift in Sources */,
 				A7AEADD629322DCB00696EF2 /* UILabel+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,9 +520,11 @@
 				DEVELOPMENT_TEAM = 288ZUH88HD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TezosHackerHouse/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = Camera;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -516,9 +550,11 @@
 				DEVELOPMENT_TEAM = UEA5XWCYV3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TezosHackerHouse/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = Camera;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -650,6 +686,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A7AEADDE293276AE00696EF2 /* XCRemoteSwiftPackageReference "Glaip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maurovz/Glaip";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A7AEADDF293276AE00696EF2 /* Glaip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7AEADDE293276AE00696EF2 /* XCRemoteSwiftPackageReference "Glaip" */;
+			productName = Glaip;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 80C2738229322AD30077FCE8 /* Project object */;
 }
