@@ -1,13 +1,13 @@
 //
-//  TezosHackrHausUITestsLaunchTests.swift
-//  TezosHackrHausUITests
+//  TezosHackerHouseUITestsLaunchTests.swift
+//  TezosHackerHouseUITests
 //
-//  Created by Christian Grinling on 25/11/2022.
+//  Created by Christian Grinling on 26/11/2022.
 //
 
 import XCTest
 
-final class TezosHackrHausUITestsLaunchTests: XCTestCase {
+final class TezosHackerHouseUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

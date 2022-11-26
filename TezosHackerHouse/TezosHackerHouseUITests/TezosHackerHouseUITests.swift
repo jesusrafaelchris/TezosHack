@@ -1,13 +1,13 @@
 //
-//  TezosHackrHausUITests.swift
-//  TezosHackrHausUITests
+//  TezosHackerHouseUITests.swift
+//  TezosHackerHouseUITests
 //
-//  Created by Christian Grinling on 25/11/2022.
+//  Created by Christian Grinling on 26/11/2022.
 //
 
 import XCTest
 
-final class TezosHackrHausUITests: XCTestCase {
+final class TezosHackerHouseUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

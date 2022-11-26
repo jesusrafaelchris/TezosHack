@@ -7,65 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		80C2734D293122720077FCE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2734C293122720077FCE8 /* AppDelegate.swift */; };
-		80C2734F293122720077FCE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2734E293122720077FCE8 /* ViewController.swift */; };
-		80C27351293122720077FCE8 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 80C27350293122720077FCE8 /* Experience.rcproject */; };
-		80C27354293122720077FCE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C27352293122720077FCE8 /* Main.storyboard */; };
-		80C27356293122740077FCE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C27355293122740077FCE8 /* Assets.xcassets */; };
-		80C27359293122740077FCE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C27357293122740077FCE8 /* LaunchScreen.storyboard */; };
-		80C27363293122750077FCE8 /* TezosHackrHausTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C27362293122750077FCE8 /* TezosHackrHausTests.swift */; };
-		80C2736D293122750077FCE8 /* TezosHackrHausUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2736C293122750077FCE8 /* TezosHackrHausUITests.swift */; };
-		80C2736F293122750077FCE8 /* TezosHackrHausUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2736E293122750077FCE8 /* TezosHackrHausUITestsLaunchTests.swift */; };
+		80C2738E29322AD30077FCE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2738D29322AD30077FCE8 /* AppDelegate.swift */; };
+		80C2739029322AD30077FCE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2738F29322AD30077FCE8 /* SceneDelegate.swift */; };
+		80C2739229322AD30077FCE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2739129322AD30077FCE8 /* ViewController.swift */; };
+		80C2739529322AD30077FCE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C2739329322AD30077FCE8 /* Main.storyboard */; };
+		80C2739729322AD50077FCE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C2739629322AD50077FCE8 /* Assets.xcassets */; };
+		80C2739A29322AD50077FCE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C2739829322AD50077FCE8 /* LaunchScreen.storyboard */; };
+		80C273A529322AD60077FCE8 /* TezosHackerHouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C273A429322AD60077FCE8 /* TezosHackerHouseTests.swift */; };
+		80C273AF29322AD60077FCE8 /* TezosHackerHouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C273AE29322AD60077FCE8 /* TezosHackerHouseUITests.swift */; };
+		80C273B129322AD60077FCE8 /* TezosHackerHouseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C273B029322AD60077FCE8 /* TezosHackerHouseUITestsLaunchTests.swift */; };
+		80C273BE29322AF60077FCE8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C273BD29322AF60077FCE8 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		80C2735F293122750077FCE8 /* PBXContainerItemProxy */ = {
+		80C273A129322AD60077FCE8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 80C27341293122720077FCE8 /* Project object */;
+			containerPortal = 80C2738229322AD30077FCE8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 80C27348293122720077FCE8;
-			remoteInfo = TezosHackrHaus;
+			remoteGlobalIDString = 80C2738929322AD30077FCE8;
+			remoteInfo = TezosHackerHouse;
 		};
-		80C27369293122750077FCE8 /* PBXContainerItemProxy */ = {
+		80C273AB29322AD60077FCE8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 80C27341293122720077FCE8 /* Project object */;
+			containerPortal = 80C2738229322AD30077FCE8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 80C27348293122720077FCE8;
-			remoteInfo = TezosHackrHaus;
+			remoteGlobalIDString = 80C2738929322AD30077FCE8;
+			remoteInfo = TezosHackerHouse;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		80C27349293122720077FCE8 /* TezosHackrHaus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TezosHackrHaus.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		80C2734C293122720077FCE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80C2734E293122720077FCE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		80C27350293122720077FCE8 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
-		80C27353293122720077FCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		80C27355293122740077FCE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		80C27358293122740077FCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		80C2735E293122750077FCE8 /* TezosHackrHausTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TezosHackrHausTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		80C27362293122750077FCE8 /* TezosHackrHausTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TezosHackrHausTests.swift; sourceTree = "<group>"; };
-		80C27368293122750077FCE8 /* TezosHackrHausUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TezosHackrHausUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		80C2736C293122750077FCE8 /* TezosHackrHausUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TezosHackrHausUITests.swift; sourceTree = "<group>"; };
-		80C2736E293122750077FCE8 /* TezosHackrHausUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TezosHackrHausUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80C2738A29322AD30077FCE8 /* TezosHackerHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TezosHackerHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C2738D29322AD30077FCE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80C2738F29322AD30077FCE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80C2739129322AD30077FCE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80C2739429322AD30077FCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80C2739629322AD50077FCE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80C2739929322AD50077FCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80C2739B29322AD50077FCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C273A029322AD60077FCE8 /* TezosHackerHouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TezosHackerHouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C273A429322AD60077FCE8 /* TezosHackerHouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TezosHackerHouseTests.swift; sourceTree = "<group>"; };
+		80C273AA29322AD60077FCE8 /* TezosHackerHouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TezosHackerHouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C273AE29322AD60077FCE8 /* TezosHackerHouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TezosHackerHouseUITests.swift; sourceTree = "<group>"; };
+		80C273B029322AD60077FCE8 /* TezosHackerHouseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TezosHackerHouseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80C273BD29322AF60077FCE8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		80C27346293122720077FCE8 /* Frameworks */ = {
+		80C2738729322AD30077FCE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80C2735B293122750077FCE8 /* Frameworks */ = {
+		80C2739D29322AD60077FCE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80C27365293122750077FCE8 /* Frameworks */ = {
+		80C273A729322AD60077FCE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,136 +78,138 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		80C27340293122720077FCE8 = {
+		80C2738129322AD30077FCE8 = {
 			isa = PBXGroup;
 			children = (
-				80C2734B293122720077FCE8 /* TezosHackrHaus */,
-				80C27361293122750077FCE8 /* TezosHackrHausTests */,
-				80C2736B293122750077FCE8 /* TezosHackrHausUITests */,
-				80C2734A293122720077FCE8 /* Products */,
+				80C2738C29322AD30077FCE8 /* TezosHackerHouse */,
+				80C273A329322AD60077FCE8 /* TezosHackerHouseTests */,
+				80C273AD29322AD60077FCE8 /* TezosHackerHouseUITests */,
+				80C2738B29322AD30077FCE8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		80C2734A293122720077FCE8 /* Products */ = {
+		80C2738B29322AD30077FCE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80C27349293122720077FCE8 /* TezosHackrHaus.app */,
-				80C2735E293122750077FCE8 /* TezosHackrHausTests.xctest */,
-				80C27368293122750077FCE8 /* TezosHackrHausUITests.xctest */,
+				80C2738A29322AD30077FCE8 /* TezosHackerHouse.app */,
+				80C273A029322AD60077FCE8 /* TezosHackerHouseTests.xctest */,
+				80C273AA29322AD60077FCE8 /* TezosHackerHouseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		80C2734B293122720077FCE8 /* TezosHackrHaus */ = {
+		80C2738C29322AD30077FCE8 /* TezosHackerHouse */ = {
 			isa = PBXGroup;
 			children = (
-				80C2734C293122720077FCE8 /* AppDelegate.swift */,
-				80C2734E293122720077FCE8 /* ViewController.swift */,
-				80C27350293122720077FCE8 /* Experience.rcproject */,
-				80C27352293122720077FCE8 /* Main.storyboard */,
-				80C27355293122740077FCE8 /* Assets.xcassets */,
-				80C27357293122740077FCE8 /* LaunchScreen.storyboard */,
+				80C2738D29322AD30077FCE8 /* AppDelegate.swift */,
+				80C2738F29322AD30077FCE8 /* SceneDelegate.swift */,
+				80C273BD29322AF60077FCE8 /* LoginViewController.swift */,
+				80C2739129322AD30077FCE8 /* ViewController.swift */,
+				80C2739329322AD30077FCE8 /* Main.storyboard */,
+				80C2739629322AD50077FCE8 /* Assets.xcassets */,
+				80C2739829322AD50077FCE8 /* LaunchScreen.storyboard */,
+				80C2739B29322AD50077FCE8 /* Info.plist */,
 			);
-			path = TezosHackrHaus;
+			path = TezosHackerHouse;
 			sourceTree = "<group>";
 		};
-		80C27361293122750077FCE8 /* TezosHackrHausTests */ = {
+		80C273A329322AD60077FCE8 /* TezosHackerHouseTests */ = {
 			isa = PBXGroup;
 			children = (
-				80C27362293122750077FCE8 /* TezosHackrHausTests.swift */,
+				80C273A429322AD60077FCE8 /* TezosHackerHouseTests.swift */,
 			);
-			path = TezosHackrHausTests;
+			path = TezosHackerHouseTests;
 			sourceTree = "<group>";
 		};
-		80C2736B293122750077FCE8 /* TezosHackrHausUITests */ = {
+		80C273AD29322AD60077FCE8 /* TezosHackerHouseUITests */ = {
 			isa = PBXGroup;
 			children = (
-				80C2736C293122750077FCE8 /* TezosHackrHausUITests.swift */,
-				80C2736E293122750077FCE8 /* TezosHackrHausUITestsLaunchTests.swift */,
+				80C273AE29322AD60077FCE8 /* TezosHackerHouseUITests.swift */,
+				80C273B029322AD60077FCE8 /* TezosHackerHouseUITestsLaunchTests.swift */,
 			);
-			path = TezosHackrHausUITests;
+			path = TezosHackerHouseUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		80C27348293122720077FCE8 /* TezosHackrHaus */ = {
+		80C2738929322AD30077FCE8 /* TezosHackerHouse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80C27372293122750077FCE8 /* Build configuration list for PBXNativeTarget "TezosHackrHaus" */;
+			buildConfigurationList = 80C273B429322AD60077FCE8 /* Build configuration list for PBXNativeTarget "TezosHackerHouse" */;
 			buildPhases = (
-				80C27345293122720077FCE8 /* Sources */,
-				80C27346293122720077FCE8 /* Frameworks */,
-				80C27347293122720077FCE8 /* Resources */,
+				80C2738629322AD30077FCE8 /* Sources */,
+				80C2738729322AD30077FCE8 /* Frameworks */,
+				80C2738829322AD30077FCE8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TezosHackrHaus;
-			productName = TezosHackrHaus;
-			productReference = 80C27349293122720077FCE8 /* TezosHackrHaus.app */;
+			name = TezosHackerHouse;
+			productName = TezosHackerHouse;
+			productReference = 80C2738A29322AD30077FCE8 /* TezosHackerHouse.app */;
 			productType = "com.apple.product-type.application";
 		};
-		80C2735D293122750077FCE8 /* TezosHackrHausTests */ = {
+		80C2739F29322AD60077FCE8 /* TezosHackerHouseTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80C27375293122750077FCE8 /* Build configuration list for PBXNativeTarget "TezosHackrHausTests" */;
+			buildConfigurationList = 80C273B729322AD60077FCE8 /* Build configuration list for PBXNativeTarget "TezosHackerHouseTests" */;
 			buildPhases = (
-				80C2735A293122750077FCE8 /* Sources */,
-				80C2735B293122750077FCE8 /* Frameworks */,
-				80C2735C293122750077FCE8 /* Resources */,
+				80C2739C29322AD60077FCE8 /* Sources */,
+				80C2739D29322AD60077FCE8 /* Frameworks */,
+				80C2739E29322AD60077FCE8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				80C27360293122750077FCE8 /* PBXTargetDependency */,
+				80C273A229322AD60077FCE8 /* PBXTargetDependency */,
 			);
-			name = TezosHackrHausTests;
-			productName = TezosHackrHausTests;
-			productReference = 80C2735E293122750077FCE8 /* TezosHackrHausTests.xctest */;
+			name = TezosHackerHouseTests;
+			productName = TezosHackerHouseTests;
+			productReference = 80C273A029322AD60077FCE8 /* TezosHackerHouseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		80C27367293122750077FCE8 /* TezosHackrHausUITests */ = {
+		80C273A929322AD60077FCE8 /* TezosHackerHouseUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80C27378293122750077FCE8 /* Build configuration list for PBXNativeTarget "TezosHackrHausUITests" */;
+			buildConfigurationList = 80C273BA29322AD60077FCE8 /* Build configuration list for PBXNativeTarget "TezosHackerHouseUITests" */;
 			buildPhases = (
-				80C27364293122750077FCE8 /* Sources */,
-				80C27365293122750077FCE8 /* Frameworks */,
-				80C27366293122750077FCE8 /* Resources */,
+				80C273A629322AD60077FCE8 /* Sources */,
+				80C273A729322AD60077FCE8 /* Frameworks */,
+				80C273A829322AD60077FCE8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				80C2736A293122750077FCE8 /* PBXTargetDependency */,
+				80C273AC29322AD60077FCE8 /* PBXTargetDependency */,
 			);
-			name = TezosHackrHausUITests;
-			productName = TezosHackrHausUITests;
-			productReference = 80C27368293122750077FCE8 /* TezosHackrHausUITests.xctest */;
+			name = TezosHackerHouseUITests;
+			productName = TezosHackerHouseUITests;
+			productReference = 80C273AA29322AD60077FCE8 /* TezosHackerHouseUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		80C27341293122720077FCE8 /* Project object */ = {
+		80C2738229322AD30077FCE8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					80C27348293122720077FCE8 = {
+					80C2738929322AD30077FCE8 = {
 						CreatedOnToolsVersion = 14.1;
 					};
-					80C2735D293122750077FCE8 = {
+					80C2739F29322AD60077FCE8 = {
 						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 80C27348293122720077FCE8;
+						TestTargetID = 80C2738929322AD30077FCE8;
 					};
-					80C27367293122750077FCE8 = {
+					80C273A929322AD60077FCE8 = {
 						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 80C27348293122720077FCE8;
+						TestTargetID = 80C2738929322AD30077FCE8;
 					};
 				};
 			};
-			buildConfigurationList = 80C27344293122720077FCE8 /* Build configuration list for PBXProject "TezosHackrHaus" */;
+			buildConfigurationList = 80C2738529322AD30077FCE8 /* Build configuration list for PBXProject "TezosHackerHouse" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,37 +217,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 80C27340293122720077FCE8;
-			productRefGroup = 80C2734A293122720077FCE8 /* Products */;
+			mainGroup = 80C2738129322AD30077FCE8;
+			productRefGroup = 80C2738B29322AD30077FCE8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80C27348293122720077FCE8 /* TezosHackrHaus */,
-				80C2735D293122750077FCE8 /* TezosHackrHausTests */,
-				80C27367293122750077FCE8 /* TezosHackrHausUITests */,
+				80C2738929322AD30077FCE8 /* TezosHackerHouse */,
+				80C2739F29322AD60077FCE8 /* TezosHackerHouseTests */,
+				80C273A929322AD60077FCE8 /* TezosHackerHouseUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		80C27347293122720077FCE8 /* Resources */ = {
+		80C2738829322AD30077FCE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80C27359293122740077FCE8 /* LaunchScreen.storyboard in Resources */,
-				80C27356293122740077FCE8 /* Assets.xcassets in Resources */,
-				80C27354293122720077FCE8 /* Main.storyboard in Resources */,
+				80C2739A29322AD50077FCE8 /* LaunchScreen.storyboard in Resources */,
+				80C2739729322AD50077FCE8 /* Assets.xcassets in Resources */,
+				80C2739529322AD30077FCE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80C2735C293122750077FCE8 /* Resources */ = {
+		80C2739E29322AD60077FCE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80C27366293122750077FCE8 /* Resources */ = {
+		80C273A829322AD60077FCE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,61 +257,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		80C27345293122720077FCE8 /* Sources */ = {
+		80C2738629322AD30077FCE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80C2734F293122720077FCE8 /* ViewController.swift in Sources */,
-				80C2734D293122720077FCE8 /* AppDelegate.swift in Sources */,
-				80C27351293122720077FCE8 /* Experience.rcproject in Sources */,
+				80C273BE29322AF60077FCE8 /* LoginViewController.swift in Sources */,
+				80C2739229322AD30077FCE8 /* ViewController.swift in Sources */,
+				80C2738E29322AD30077FCE8 /* AppDelegate.swift in Sources */,
+				80C2739029322AD30077FCE8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80C2735A293122750077FCE8 /* Sources */ = {
+		80C2739C29322AD60077FCE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80C27363293122750077FCE8 /* TezosHackrHausTests.swift in Sources */,
+				80C273A529322AD60077FCE8 /* TezosHackerHouseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80C27364293122750077FCE8 /* Sources */ = {
+		80C273A629322AD60077FCE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80C2736D293122750077FCE8 /* TezosHackrHausUITests.swift in Sources */,
-				80C2736F293122750077FCE8 /* TezosHackrHausUITestsLaunchTests.swift in Sources */,
+				80C273AF29322AD60077FCE8 /* TezosHackerHouseUITests.swift in Sources */,
+				80C273B129322AD60077FCE8 /* TezosHackerHouseUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		80C27360293122750077FCE8 /* PBXTargetDependency */ = {
+		80C273A229322AD60077FCE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80C27348293122720077FCE8 /* TezosHackrHaus */;
-			targetProxy = 80C2735F293122750077FCE8 /* PBXContainerItemProxy */;
+			target = 80C2738929322AD30077FCE8 /* TezosHackerHouse */;
+			targetProxy = 80C273A129322AD60077FCE8 /* PBXContainerItemProxy */;
 		};
-		80C2736A293122750077FCE8 /* PBXTargetDependency */ = {
+		80C273AC29322AD60077FCE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80C27348293122720077FCE8 /* TezosHackrHaus */;
-			targetProxy = 80C27369293122750077FCE8 /* PBXContainerItemProxy */;
+			target = 80C2738929322AD30077FCE8 /* TezosHackerHouse */;
+			targetProxy = 80C273AB29322AD60077FCE8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		80C27352293122720077FCE8 /* Main.storyboard */ = {
+		80C2739329322AD30077FCE8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				80C27353293122720077FCE8 /* Base */,
+				80C2739429322AD30077FCE8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		80C27357293122740077FCE8 /* LaunchScreen.storyboard */ = {
+		80C2739829322AD50077FCE8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				80C27358293122740077FCE8 /* Base */,
+				80C2739929322AD50077FCE8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -314,7 +320,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		80C27370293122750077FCE8 /* Debug */ = {
+		80C273B229322AD60077FCE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -374,7 +380,7 @@
 			};
 			name = Debug;
 		};
-		80C27371293122750077FCE8 /* Release */ = {
+		80C273B329322AD60077FCE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -428,7 +434,7 @@
 			};
 			name = Release;
 		};
-		80C27373293122750077FCE8 /* Debug */ = {
+		80C273B529322AD60077FCE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -437,12 +443,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UEA5XWCYV3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_FILE = TezosHackerHouse/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -450,7 +454,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.christian.TezosHackrHaus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christian.TezosHackerHouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -458,7 +462,7 @@
 			};
 			name = Debug;
 		};
-		80C27374293122750077FCE8 /* Release */ = {
+		80C273B629322AD60077FCE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -467,12 +471,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UEA5XWCYV3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_FILE = TezosHackerHouse/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,7 +482,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.christian.TezosHackrHaus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christian.TezosHackerHouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,7 +490,7 @@
 			};
 			name = Release;
 		};
-		80C27376293122750077FCE8 /* Debug */ = {
+		80C273B829322AD60077FCE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -499,16 +501,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.christian.TezosHackrHausTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christian.TezosHackerHouseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TezosHackrHaus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TezosHackrHaus";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TezosHackerHouse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TezosHackerHouse";
 			};
 			name = Debug;
 		};
-		80C27377293122750077FCE8 /* Release */ = {
+		80C273B929322AD60077FCE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -519,16 +521,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.christian.TezosHackrHausTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christian.TezosHackerHouseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TezosHackrHaus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TezosHackrHaus";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TezosHackerHouse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TezosHackerHouse";
 			};
 			name = Release;
 		};
-		80C27379293122750077FCE8 /* Debug */ = {
+		80C273BB29322AD60077FCE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -537,16 +539,16 @@
 				DEVELOPMENT_TEAM = UEA5XWCYV3;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.christian.TezosHackrHausUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christian.TezosHackerHouseUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TezosHackrHaus;
+				TEST_TARGET_NAME = TezosHackerHouse;
 			};
 			name = Debug;
 		};
-		80C2737A293122750077FCE8 /* Release */ = {
+		80C273BC29322AD60077FCE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -555,55 +557,55 @@
 				DEVELOPMENT_TEAM = UEA5XWCYV3;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.christian.TezosHackrHausUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christian.TezosHackerHouseUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TezosHackrHaus;
+				TEST_TARGET_NAME = TezosHackerHouse;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		80C27344293122720077FCE8 /* Build configuration list for PBXProject "TezosHackrHaus" */ = {
+		80C2738529322AD30077FCE8 /* Build configuration list for PBXProject "TezosHackerHouse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80C27370293122750077FCE8 /* Debug */,
-				80C27371293122750077FCE8 /* Release */,
+				80C273B229322AD60077FCE8 /* Debug */,
+				80C273B329322AD60077FCE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80C27372293122750077FCE8 /* Build configuration list for PBXNativeTarget "TezosHackrHaus" */ = {
+		80C273B429322AD60077FCE8 /* Build configuration list for PBXNativeTarget "TezosHackerHouse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80C27373293122750077FCE8 /* Debug */,
-				80C27374293122750077FCE8 /* Release */,
+				80C273B529322AD60077FCE8 /* Debug */,
+				80C273B629322AD60077FCE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80C27375293122750077FCE8 /* Build configuration list for PBXNativeTarget "TezosHackrHausTests" */ = {
+		80C273B729322AD60077FCE8 /* Build configuration list for PBXNativeTarget "TezosHackerHouseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80C27376293122750077FCE8 /* Debug */,
-				80C27377293122750077FCE8 /* Release */,
+				80C273B829322AD60077FCE8 /* Debug */,
+				80C273B929322AD60077FCE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80C27378293122750077FCE8 /* Build configuration list for PBXNativeTarget "TezosHackrHausUITests" */ = {
+		80C273BA29322AD60077FCE8 /* Build configuration list for PBXNativeTarget "TezosHackerHouseUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80C27379293122750077FCE8 /* Debug */,
-				80C2737A293122750077FCE8 /* Release */,
+				80C273BB29322AD60077FCE8 /* Debug */,
+				80C273BC29322AD60077FCE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 80C27341293122720077FCE8 /* Project object */;
+	rootObject = 80C2738229322AD30077FCE8 /* Project object */;
 }
