@@ -16,8 +16,15 @@
 		80C273E429323EE10077FCE8 /* TestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C273E329323EE10077FCE8 /* TestingTests.swift */; };
 		80C273EE29323EE10077FCE8 /* TestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C273ED29323EE10077FCE8 /* TestingUITests.swift */; };
 		80C273F029323EE10077FCE8 /* TestingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C273EF29323EE10077FCE8 /* TestingUITestsLaunchTests.swift */; };
-		80C273FF29323F980077FCE8 /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C273FE29323F980077FCE8 /* ExperienceViewController.swift */; };
 		80C27409293244CA0077FCE8 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C27408293244CA0077FCE8 /* TestViewController.swift */; };
+		80C2740B293256E40077FCE8 /* ARView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2740A293256E40077FCE8 /* ARView+Ext.swift */; };
+		80C274172932818C0077FCE8 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C274162932818C0077FCE8 /* toy_robot_vintage.usdz */; };
+		80C2741929328CE20077FCE8 /* NFTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2741829328CE20077FCE8 /* NFTCell.swift */; };
+		80C2741B293291860077FCE8 /* NFTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2741A293291860077FCE8 /* NFTModel.swift */; };
+		80C2741F2932952F0077FCE8 /* cup_saucer_set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C2741E2932952F0077FCE8 /* cup_saucer_set.usdz */; };
+		80C274212932A1510077FCE8 /* sneaker_airforce.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C274202932A1510077FCE8 /* sneaker_airforce.usdz */; };
+		80C274272932B7D40077FCE8 /* Fancy_Picture_Frame.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C274262932B7D40077FCE8 /* Fancy_Picture_Frame.usdz */; };
+		80C2742A2932D5C60077FCE8 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 80C274292932D5C60077FCE8 /* FocusEntity */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +57,14 @@
 		80C273E929323EE10077FCE8 /* TestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C273ED29323EE10077FCE8 /* TestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingUITests.swift; sourceTree = "<group>"; };
 		80C273EF29323EE10077FCE8 /* TestingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		80C273FE29323F980077FCE8 /* ExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
 		80C27408293244CA0077FCE8 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		80C2740A293256E40077FCE8 /* ARView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARView+Ext.swift"; sourceTree = "<group>"; };
+		80C274162932818C0077FCE8 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		80C2741829328CE20077FCE8 /* NFTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTCell.swift; sourceTree = "<group>"; };
+		80C2741A293291860077FCE8 /* NFTModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTModel.swift; sourceTree = "<group>"; };
+		80C2741E2932952F0077FCE8 /* cup_saucer_set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cup_saucer_set.usdz; sourceTree = "<group>"; };
+		80C274202932A1510077FCE8 /* sneaker_airforce.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sneaker_airforce.usdz; sourceTree = "<group>"; };
+		80C274262932B7D40077FCE8 /* Fancy_Picture_Frame.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Fancy_Picture_Frame.usdz; path = ../../../../Fancy_Picture_Frame.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C2742A2932D5C60077FCE8 /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,10 +116,13 @@
 		80C273CC29323EDE0077FCE8 /* Testing */ = {
 			isa = PBXGroup;
 			children = (
+				80C2740F29327DED0077FCE8 /* Models */,
 				80C273CD29323EDE0077FCE8 /* AppDelegate.swift */,
 				80C273CF29323EDE0077FCE8 /* ViewController.swift */,
+				80C2741A293291860077FCE8 /* NFTModel.swift */,
+				80C2741829328CE20077FCE8 /* NFTCell.swift */,
+				80C2740A293256E40077FCE8 /* ARView+Ext.swift */,
 				80C27408293244CA0077FCE8 /* TestViewController.swift */,
-				80C273FE29323F980077FCE8 /* ExperienceViewController.swift */,
 				80C273D129323EDE0077FCE8 /* Experience.rcproject */,
 				80C273D329323EDE0077FCE8 /* Main.storyboard */,
 				80C273D629323EE10077FCE8 /* Assets.xcassets */,
@@ -131,6 +148,17 @@
 			path = TestingUITests;
 			sourceTree = "<group>";
 		};
+		80C2740F29327DED0077FCE8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				80C274262932B7D40077FCE8 /* Fancy_Picture_Frame.usdz */,
+				80C274202932A1510077FCE8 /* sneaker_airforce.usdz */,
+				80C2741E2932952F0077FCE8 /* cup_saucer_set.usdz */,
+				80C274162932818C0077FCE8 /* toy_robot_vintage.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,6 +175,9 @@
 			dependencies = (
 			);
 			name = Testing;
+			packageProductDependencies = (
+				80C274292932D5C60077FCE8 /* FocusEntity */,
+			);
 			productName = Testing;
 			productReference = 80C273CA29323EDE0077FCE8 /* Testing.app */;
 			productType = "com.apple.product-type.application";
@@ -219,6 +250,9 @@
 				Base,
 			);
 			mainGroup = 80C273C129323EDE0077FCE8;
+			packageReferences = (
+				80C274282932D5C60077FCE8 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			productRefGroup = 80C273CB29323EDE0077FCE8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,8 +269,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C274272932B7D40077FCE8 /* Fancy_Picture_Frame.usdz in Resources */,
+				80C274172932818C0077FCE8 /* toy_robot_vintage.usdz in Resources */,
 				80C273DA29323EE10077FCE8 /* LaunchScreen.storyboard in Resources */,
+				80C2741F2932952F0077FCE8 /* cup_saucer_set.usdz in Resources */,
 				80C273D729323EE10077FCE8 /* Assets.xcassets in Resources */,
+				80C274212932A1510077FCE8 /* sneaker_airforce.usdz in Resources */,
 				80C273D529323EDE0077FCE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,8 +302,10 @@
 			files = (
 				80C27409293244CA0077FCE8 /* TestViewController.swift in Sources */,
 				80C273D029323EDE0077FCE8 /* ViewController.swift in Sources */,
+				80C2740B293256E40077FCE8 /* ARView+Ext.swift in Sources */,
 				80C273CE29323EDE0077FCE8 /* AppDelegate.swift in Sources */,
-				80C273FF29323F980077FCE8 /* ExperienceViewController.swift in Sources */,
+				80C2741929328CE20077FCE8 /* NFTCell.swift in Sources */,
+				80C2741B293291860077FCE8 /* NFTModel.swift in Sources */,
 				80C273D229323EDE0077FCE8 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -614,6 +654,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		80C274282932D5C60077FCE8 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		80C274292932D5C60077FCE8 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80C274282932D5C60077FCE8 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 80C273C229323EDE0077FCE8 /* Project object */;
 }
