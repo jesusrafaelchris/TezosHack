@@ -17,7 +17,15 @@
 		80C273AF29322AD60077FCE8 /* TezosHackerHouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C273AE29322AD60077FCE8 /* TezosHackerHouseUITests.swift */; };
 		80C273B129322AD60077FCE8 /* TezosHackerHouseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C273B029322AD60077FCE8 /* TezosHackerHouseUITestsLaunchTests.swift */; };
 		80C273BE29322AF60077FCE8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C273BD29322AF60077FCE8 /* LoginViewController.swift */; };
-		80C273C029322B860077FCE8 /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C273BF29322B860077FCE8 /* ExperienceViewController.swift */; };
+		A7AEADBB29322C9700696EF2 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEADBA29322C9700696EF2 /* TopBarView.swift */; };
+		A7AEADCF29322DC200696EF2 /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEADCE29322DC200696EF2 /* UIButton+Ext.swift */; };
+		A7AEADD629322DCB00696EF2 /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEADD029322DCB00696EF2 /* UILabel+Ext.swift */; };
+		A7AEADD729322DCB00696EF2 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEADD129322DCB00696EF2 /* UIColor+Ext.swift */; };
+		A7AEADD829322DCB00696EF2 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEADD229322DCB00696EF2 /* UICollectionView+Ext.swift */; };
+		A7AEADD929322DCB00696EF2 /* UISearchTextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEADD329322DCB00696EF2 /* UISearchTextField+Ext.swift */; };
+		A7AEADDA29322DCB00696EF2 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEADD429322DCB00696EF2 /* UITableView+Ext.swift */; };
+		A7AEADDB29322DCB00696EF2 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEADD529322DCB00696EF2 /* UIView+Ext.swift */; };
+		A7AEADDD29323CF500696EF2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEADDC29323CF500696EF2 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +60,15 @@
 		80C273AE29322AD60077FCE8 /* TezosHackerHouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TezosHackerHouseUITests.swift; sourceTree = "<group>"; };
 		80C273B029322AD60077FCE8 /* TezosHackerHouseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TezosHackerHouseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		80C273BD29322AF60077FCE8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		80C273BF29322B860077FCE8 /* ExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
+		A7AEADBA29322C9700696EF2 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		A7AEADCE29322DC200696EF2 /* UIButton+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
+		A7AEADD029322DCB00696EF2 /* UILabel+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
+		A7AEADD129322DCB00696EF2 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		A7AEADD229322DCB00696EF2 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
+		A7AEADD329322DCB00696EF2 /* UISearchTextField+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchTextField+Ext.swift"; sourceTree = "<group>"; };
+		A7AEADD429322DCB00696EF2 /* UITableView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		A7AEADD529322DCB00696EF2 /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		A7AEADDC29323CF500696EF2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +119,12 @@
 		80C2738C29322AD30077FCE8 /* TezosHackerHouse */ = {
 			isa = PBXGroup;
 			children = (
+				A7AEADCD29322DB500696EF2 /* Extensions */,
 				80C2738D29322AD30077FCE8 /* AppDelegate.swift */,
 				80C2738F29322AD30077FCE8 /* SceneDelegate.swift */,
+				A7AEADDC29323CF500696EF2 /* HomeViewController.swift */,
 				80C273BD29322AF60077FCE8 /* LoginViewController.swift */,
-				80C273BF29322B860077FCE8 /* ExperienceViewController.swift */,
+				A7AEADBA29322C9700696EF2 /* TopBarView.swift */,
 				80C2739129322AD30077FCE8 /* ViewController.swift */,
 				80C2739329322AD30077FCE8 /* Main.storyboard */,
 				80C2739629322AD50077FCE8 /* Assets.xcassets */,
@@ -131,6 +149,20 @@
 				80C273B029322AD60077FCE8 /* TezosHackerHouseUITestsLaunchTests.swift */,
 			);
 			path = TezosHackerHouseUITests;
+			sourceTree = "<group>";
+		};
+		A7AEADCD29322DB500696EF2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A7AEADCE29322DC200696EF2 /* UIButton+Ext.swift */,
+				A7AEADD229322DCB00696EF2 /* UICollectionView+Ext.swift */,
+				A7AEADD129322DCB00696EF2 /* UIColor+Ext.swift */,
+				A7AEADD029322DCB00696EF2 /* UILabel+Ext.swift */,
+				A7AEADD329322DCB00696EF2 /* UISearchTextField+Ext.swift */,
+				A7AEADD429322DCB00696EF2 /* UITableView+Ext.swift */,
+				A7AEADD529322DCB00696EF2 /* UIView+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,11 +296,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7AEADDA29322DCB00696EF2 /* UITableView+Ext.swift in Sources */,
+				A7AEADBB29322C9700696EF2 /* TopBarView.swift in Sources */,
 				80C273BE29322AF60077FCE8 /* LoginViewController.swift in Sources */,
 				80C2739229322AD30077FCE8 /* ViewController.swift in Sources */,
-				80C273C029322B860077FCE8 /* ExperienceViewController.swift in Sources */,
+				A7AEADD929322DCB00696EF2 /* UISearchTextField+Ext.swift in Sources */,
 				80C2738E29322AD30077FCE8 /* AppDelegate.swift in Sources */,
 				80C2739029322AD30077FCE8 /* SceneDelegate.swift in Sources */,
+				A7AEADD729322DCB00696EF2 /* UIColor+Ext.swift in Sources */,
+				A7AEADDB29322DCB00696EF2 /* UIView+Ext.swift in Sources */,
+				A7AEADCF29322DC200696EF2 /* UIButton+Ext.swift in Sources */,
+				A7AEADD829322DCB00696EF2 /* UICollectionView+Ext.swift in Sources */,
+				A7AEADDD29323CF500696EF2 /* HomeViewController.swift in Sources */,
+				A7AEADD629322DCB00696EF2 /* UILabel+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +485,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UEA5XWCYV3;
+				DEVELOPMENT_TEAM = 288ZUH88HD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TezosHackerHouse/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -453,7 +493,6 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,7 +521,6 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
