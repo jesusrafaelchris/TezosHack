@@ -25,6 +25,22 @@
 		80C274212932A1510077FCE8 /* sneaker_airforce.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C274202932A1510077FCE8 /* sneaker_airforce.usdz */; };
 		80C274272932B7D40077FCE8 /* Fancy_Picture_Frame.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C274262932B7D40077FCE8 /* Fancy_Picture_Frame.usdz */; };
 		80C2742A2932D5C60077FCE8 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 80C274292932D5C60077FCE8 /* FocusEntity */; };
+		80C274422932DC090077FCE8 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2743B2932DC090077FCE8 /* UICollectionView+Ext.swift */; };
+		80C274432932DC090077FCE8 /* UISearchTextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2743C2932DC090077FCE8 /* UISearchTextField+Ext.swift */; };
+		80C274442932DC090077FCE8 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2743D2932DC090077FCE8 /* UITableView+Ext.swift */; };
+		80C274452932DC090077FCE8 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2743E2932DC090077FCE8 /* UIColor+Ext.swift */; };
+		80C274462932DC090077FCE8 /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2743F2932DC090077FCE8 /* UILabel+Ext.swift */; };
+		80C274472932DC090077FCE8 /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C274402932DC090077FCE8 /* UIButton+Ext.swift */; };
+		80C274482932DC090077FCE8 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C274412932DC090077FCE8 /* UIView+Ext.swift */; };
+		80C274522932DC720077FCE8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2744A2932DC720077FCE8 /* ProfileViewController.swift */; };
+		80C274532932DC720077FCE8 /* BidStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2744B2932DC720077FCE8 /* BidStruct.swift */; };
+		80C274542932DC720077FCE8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2744C2932DC720077FCE8 /* HomeViewController.swift */; };
+		80C274552932DC720077FCE8 /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2744D2932DC720077FCE8 /* ExperienceView.swift */; };
+		80C274562932DC720077FCE8 /* BiddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2744E2932DC720077FCE8 /* BiddingViewController.swift */; };
+		80C274572932DC720077FCE8 /* BidCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2744F2932DC720077FCE8 /* BidCell.swift */; };
+		80C274582932DC720077FCE8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C274502932DC720077FCE8 /* LoginViewController.swift */; };
+		80C274592932DC720077FCE8 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C274512932DC720077FCE8 /* TopBarView.swift */; };
+		80C2745B2932DD930077FCE8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2745A2932DD930077FCE8 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +81,22 @@
 		80C2741E2932952F0077FCE8 /* cup_saucer_set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cup_saucer_set.usdz; sourceTree = "<group>"; };
 		80C274202932A1510077FCE8 /* sneaker_airforce.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sneaker_airforce.usdz; sourceTree = "<group>"; };
 		80C274262932B7D40077FCE8 /* Fancy_Picture_Frame.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Fancy_Picture_Frame.usdz; path = ../../../../Fancy_Picture_Frame.usdz; sourceTree = "<group>"; };
+		80C2743B2932DC090077FCE8 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
+		80C2743C2932DC090077FCE8 /* UISearchTextField+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchTextField+Ext.swift"; sourceTree = "<group>"; };
+		80C2743D2932DC090077FCE8 /* UITableView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		80C2743E2932DC090077FCE8 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		80C2743F2932DC090077FCE8 /* UILabel+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
+		80C274402932DC090077FCE8 /* UIButton+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
+		80C274412932DC090077FCE8 /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		80C2744A2932DC720077FCE8 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		80C2744B2932DC720077FCE8 /* BidStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BidStruct.swift; sourceTree = "<group>"; };
+		80C2744C2932DC720077FCE8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		80C2744D2932DC720077FCE8 /* ExperienceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceView.swift; sourceTree = "<group>"; };
+		80C2744E2932DC720077FCE8 /* BiddingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiddingViewController.swift; sourceTree = "<group>"; };
+		80C2744F2932DC720077FCE8 /* BidCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BidCell.swift; sourceTree = "<group>"; };
+		80C274502932DC720077FCE8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		80C274512932DC720077FCE8 /* TopBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		80C2745A2932DD930077FCE8 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,14 +148,12 @@
 		80C273CC29323EDE0077FCE8 /* Testing */ = {
 			isa = PBXGroup;
 			children = (
+				80C274492932DC4E0077FCE8 /* Home */,
+				80C2742C2932DBCE0077FCE8 /* Extensions */,
 				80C2740F29327DED0077FCE8 /* Models */,
 				80C273CD29323EDE0077FCE8 /* AppDelegate.swift */,
 				80C273CF29323EDE0077FCE8 /* ViewController.swift */,
-				80C2741A293291860077FCE8 /* NFTModel.swift */,
-				80C2741829328CE20077FCE8 /* NFTCell.swift */,
-				80C2740A293256E40077FCE8 /* ARView+Ext.swift */,
-				80C27408293244CA0077FCE8 /* TestViewController.swift */,
-				80C273D129323EDE0077FCE8 /* Experience.rcproject */,
+				80C2742B2932DBA60077FCE8 /* Experience */,
 				80C273D329323EDE0077FCE8 /* Main.storyboard */,
 				80C273D629323EE10077FCE8 /* Assets.xcassets */,
 				80C273D829323EE10077FCE8 /* LaunchScreen.storyboard */,
@@ -157,6 +187,48 @@
 				80C274162932818C0077FCE8 /* toy_robot_vintage.usdz */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		80C2742B2932DBA60077FCE8 /* Experience */ = {
+			isa = PBXGroup;
+			children = (
+				80C2741A293291860077FCE8 /* NFTModel.swift */,
+				80C2741829328CE20077FCE8 /* NFTCell.swift */,
+				80C2740A293256E40077FCE8 /* ARView+Ext.swift */,
+				80C27408293244CA0077FCE8 /* TestViewController.swift */,
+				80C273D129323EDE0077FCE8 /* Experience.rcproject */,
+			);
+			path = Experience;
+			sourceTree = "<group>";
+		};
+		80C2742C2932DBCE0077FCE8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				80C274402932DC090077FCE8 /* UIButton+Ext.swift */,
+				80C2743B2932DC090077FCE8 /* UICollectionView+Ext.swift */,
+				80C2743E2932DC090077FCE8 /* UIColor+Ext.swift */,
+				80C2743F2932DC090077FCE8 /* UILabel+Ext.swift */,
+				80C2743C2932DC090077FCE8 /* UISearchTextField+Ext.swift */,
+				80C2743D2932DC090077FCE8 /* UITableView+Ext.swift */,
+				80C274412932DC090077FCE8 /* UIView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		80C274492932DC4E0077FCE8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				80C2745A2932DD930077FCE8 /* TabBarController.swift */,
+				80C2744F2932DC720077FCE8 /* BidCell.swift */,
+				80C2744E2932DC720077FCE8 /* BiddingViewController.swift */,
+				80C2744B2932DC720077FCE8 /* BidStruct.swift */,
+				80C2744D2932DC720077FCE8 /* ExperienceView.swift */,
+				80C2744C2932DC720077FCE8 /* HomeViewController.swift */,
+				80C274502932DC720077FCE8 /* LoginViewController.swift */,
+				80C2744A2932DC720077FCE8 /* ProfileViewController.swift */,
+				80C274512932DC720077FCE8 /* TopBarView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,12 +372,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C274582932DC720077FCE8 /* LoginViewController.swift in Sources */,
 				80C27409293244CA0077FCE8 /* TestViewController.swift in Sources */,
 				80C273D029323EDE0077FCE8 /* ViewController.swift in Sources */,
 				80C2740B293256E40077FCE8 /* ARView+Ext.swift in Sources */,
+				80C274542932DC720077FCE8 /* HomeViewController.swift in Sources */,
+				80C2745B2932DD930077FCE8 /* TabBarController.swift in Sources */,
 				80C273CE29323EDE0077FCE8 /* AppDelegate.swift in Sources */,
+				80C274482932DC090077FCE8 /* UIView+Ext.swift in Sources */,
+				80C274452932DC090077FCE8 /* UIColor+Ext.swift in Sources */,
+				80C274592932DC720077FCE8 /* TopBarView.swift in Sources */,
 				80C2741929328CE20077FCE8 /* NFTCell.swift in Sources */,
 				80C2741B293291860077FCE8 /* NFTModel.swift in Sources */,
+				80C274562932DC720077FCE8 /* BiddingViewController.swift in Sources */,
+				80C274432932DC090077FCE8 /* UISearchTextField+Ext.swift in Sources */,
+				80C274572932DC720077FCE8 /* BidCell.swift in Sources */,
+				80C274442932DC090077FCE8 /* UITableView+Ext.swift in Sources */,
+				80C274472932DC090077FCE8 /* UIButton+Ext.swift in Sources */,
+				80C274552932DC720077FCE8 /* ExperienceView.swift in Sources */,
+				80C274422932DC090077FCE8 /* UICollectionView+Ext.swift in Sources */,
+				80C274522932DC720077FCE8 /* ProfileViewController.swift in Sources */,
+				80C274462932DC090077FCE8 /* UILabel+Ext.swift in Sources */,
+				80C274532932DC720077FCE8 /* BidStruct.swift in Sources */,
 				80C273D229323EDE0077FCE8 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

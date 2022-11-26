@@ -6,11 +6,8 @@
 //
 
 import UIKit
-import Glaip
 
 class LoginViewController: UIViewController {
-    
-    private var glaip: Glaip!
     
     lazy var logoImage: UIImageView = {
         let imageView = UIImageView()
@@ -58,12 +55,7 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.glaip = Glaip(
-          title: "Glaip Demo App",
-          description: "Demo app to demonstrate Web3 login",
-          supportedWallets: [.MetaMask])
-        
+
         setUpView()
         setupButtonTargets()
         
@@ -78,22 +70,11 @@ class LoginViewController: UIViewController {
     }
     
     @objc func goToLogin() {
-        if glaip.userState == .unregistered {
-            print("not logged")
-            login()
-        }
+        goToHome()
     }
     
     func login() {
-        glaip.loginUser(type: .MetaMask) { result in
-          switch result {
-          case .success(let user):
-            print(user.wallet.address)
-              self.goToHome()
-          case .failure(let error):
-            print(error)
-          }
-        }
+
     }
     
     func goToHome() {

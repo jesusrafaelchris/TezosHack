@@ -57,7 +57,7 @@ class HomeViewController: UIViewController {
     }
     
     @objc func didtapbox() {
-        let vc = HomeViewController()
+        let vc = ViewController()
         self.navigationController?.pushViewController(vc, animated: false)
     }
     
