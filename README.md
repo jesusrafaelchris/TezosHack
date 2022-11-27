@@ -5,10 +5,14 @@ Showcase is an augmented reality powered mobile dapp that empowers independent a
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Showcase requires [Node.js](https://nodejs.org/) v10+ to run.
 
-```bash
-pip install foobar
+Install the dependencies and devDependencies and start the server.
+
+```sh
+cd server
+npm i
+node app
 ```
 
 ## Usage
@@ -30,10 +34,10 @@ foobar.singularize('phenomena')
 
 Showcase uses a number of open source projects to work properly:
 
-- [RealityKit] - augmented reality package for iOS
-- [node.js] - evented I/O for the backend
-- [Express] - fast node.js network app framework [@tjholowaychuk]
-- [peppermint] - ???
+- `RealityKit` - augmented reality package for iOS
+- `node.js` - evented I/O for the backend
+- `express.js` - fast node.js network app framework [@tjholowaychuk]
+- `peppermint` - ???
 
 
 ## Contributing
