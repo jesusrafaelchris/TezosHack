@@ -79,8 +79,9 @@ class LoginViewController: UIViewController {
     
     func goToHome() {
         DispatchQueue.main.async {
-            let vc = HomeViewController()
-            self.navigationController?.pushViewController(vc, animated: false)
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let destinationVC = storyboard.instantiateViewController(withIdentifier: "tabBar") as! TabBarController
+            self.navigationController?.pushViewController(destinationVC, animated: false)
         }
     }
     

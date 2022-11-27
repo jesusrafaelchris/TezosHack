@@ -2,17 +2,26 @@ import UIKit
 import RealityKit
 import ARKit
 import FocusEntity
+import Combine
+
+typealias EntityCompletion = (ModelEntity) -> ()
 
 class ViewController: UIViewController {
     
     @IBOutlet var arView: ARView!
     var modelEntities = [ModelEntity]()
     var isEditingModel = false
+    var cancellable: AnyCancellable? = nil
     
     var models: [NFTModel] = [
         NFTModel(thumbnail: "toy_robot_vintage", model: "toy_robot_vintage.usdz"),
         NFTModel(thumbnail: "cup_saucer_set", model: "cup_saucer_set.usdz"),
         NFTModel(thumbnail: "sneaker_airforce", model: "sneaker_airforce.usdz"),
+        NFTModel(thumbnail: "chair_swan", model: "chair_swan.usdz"),
+        NFTModel(thumbnail: "gramophone", model: "gramophone.usdz"),
+        NFTModel(thumbnail: "teapot", model: "teapot.usdz"),
+        NFTModel(thumbnail: "tv_retro", model: "tv_retro.usdz"),
+        NFTModel(thumbnail: "wateringcan", model: "wateringcan"),
     ]
 
     lazy var addNFTLabel: UILabel = {
@@ -28,7 +37,6 @@ class ViewController: UIViewController {
         button.backgroundColor = .red
         button.setTitle("button", for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.addTarget(self, action: #selector(buttonPress), for: .touchUpInside)
         return button
     }()
     
@@ -89,21 +97,38 @@ class ViewController: UIViewController {
         // 1 Plane Detection
         startPlaneDetection()
         // 2 Tapping to add Objects
-        enableShowBid()
         arView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTap)))
         setupView()
         let focusSquare = FocusEntity(on: self.arView, focus: .classic)
     }
     
-    func enableShowBid() {
-        let longPressGesture = UILongPressGestureRecognizer(target: self, action: #selector(handleLongPress))
-        arView.addGestureRecognizer(longPressGesture)
+    @IBAction func undo(_ sender: Any) {
+        // get current array
+        guard let lastPlaced = modelEntities.last else {return}
+        // delete last one
+        lastPlaced.removeFromParent()
+        modelEntities.removeLast()
     }
     
-    @objc func handleLongPress(_ recogniser: UILongPressGestureRecognizer) {
-        let tapLocation = recogniser.location(in: arView)
-        if let entity = arView.entity(at: tapLocation) as? ModelEntity {
-            entity.removeFromParent()
+    @IBAction func deleteAll(_ sender: Any) {
+        for model in modelEntities {
+            model.removeFromParent()
+        }
+        modelEntities.removeAll()
+    }
+    
+    @IBAction func editMode(_ sender: Any) {
+        if isEditingModel == false {
+            isEditingModel = true
+            for model in modelEntities {
+                model.generateCollisionShapes(recursive: true)
+                // Allow rotation, scale, position
+                arView.installGestures([.all], for: model)
+            }
+        }
+        
+        else if isEditingModel == true {
+            isEditingModel = false
         }
     }
     
@@ -111,7 +136,7 @@ class ViewController: UIViewController {
         view.addSubview(bottomView)
         bottomView.addSubview(MyNFTsLabel)
         bottomView.addSubview(NFTCollectionView)
-        bottomView.addSubview(editButton)
+        //bottomView.addSubview(editButton)
         
         bottomView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         bottomView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
@@ -126,25 +151,8 @@ class ViewController: UIViewController {
         NFTCollectionView.rightAnchor.constraint(equalTo: bottomView.rightAnchor).isActive = true
         NFTCollectionView.heightAnchor.constraint(equalToConstant: 110).isActive = true
         
-        editButton.topAnchor.constraint(equalTo: bottomView.topAnchor, constant: 24).isActive = true
-        editButton.rightAnchor.constraint(equalTo: bottomView.rightAnchor, constant: -16).isActive = true
-    }
-    
-    @objc func buttonPress() {
-        
-        if isEditingModel == false {
-            isEditingModel = true
-            for model in modelEntities {
-                model.generateCollisionShapes(recursive: true)
-                // Allow rotation, scale, position
-                arView.installGestures([.all], for: model)
-            }
-        }
-        
-        else if isEditingModel == true {
-            isEditingModel = false
-        }
-
+        //editButton.topAnchor.constraint(equalTo: bottomView.topAnchor, constant: 24).isActive = true
+        //editButton.rightAnchor.constraint(equalTo: bottomView.rightAnchor, constant: -16).isActive = true
     }
     
     func startPlaneDetection() {
@@ -162,41 +170,49 @@ class ViewController: UIViewController {
         // Location
         let location = recogniser.location(in: arView)
         
-        //Raycast
-        let results = arView.raycast(from: location, allowing: .estimatedPlane, alignment: .horizontal)
-        
-        if let firstResult = results.first {
-            print("found result")
-            //3D point
-            let worldPos = simd_make_float3(firstResult.worldTransform.columns.3)
+        if let _ = arView.entity(at: location) as? ModelEntity {
+            // show modal to buy
+            let detailViewController = PlaceBidVC()
+            detailViewController.modalPresentationStyle = .fullScreen
+            present(detailViewController, animated: true, completion: nil)
+        }
+        else {
+            //Raycast
+            let results = arView.raycast(from: location, allowing: .estimatedPlane, alignment: .horizontal)
             
-            //Create plane
-            guard selectedAModel == true else {return}
-            let model = createModel()
-            modelEntities.append(model)
-            
-            //place object in world
-            placeObject(object: model, at: worldPos)
-            
+            if let firstResult = results.first {
+                print("found result")
+                //3D point
+                let worldPos = simd_make_float3(firstResult.worldTransform.columns.3)
+                
+                //Create plane
+                guard selectedAModel == true else {return}
+                let model = createModel { model in
+                    self.modelEntities.append(model)
+                    
+                    //place object in world
+                    self.placeObject(object: model, at: worldPos)
+                }
+            }
         }
     }
     
-    func createModel() -> ModelEntity {
-        let modelEntity = try! ModelEntity.loadModel(named: self.selectedModel)
-        return modelEntity
-    }
-    
-    func createPlane(with image: String) -> ModelEntity {
-        //Mesh
-        let plane = MeshResource.generatePlane(width: 0.1, depth: 0.1)
+    func createModel(completion: @escaping EntityCompletion) {
         
-        //Material
-        let planeMaterial = SimpleMaterial(color: .red, isMetallic: true)
-        
-        //Model Entity
-        let planeEntity = ModelEntity(mesh: plane, materials: [planeMaterial])
-        
-        return planeEntity
+        cancellable = Entity.loadModelAsync(named: self.selectedModel)
+            .sink(receiveCompletion: { completion in
+                if case let .failure(error) = completion {
+                    print("Unable to load a model due to error \(error)")
+                }
+                self.cancellable?.cancel()
+                
+            }, receiveValue: { [self] (model: Entity) in
+                if let model = model as? ModelEntity {
+                    cancellable?.cancel()
+                    print("Congrats! Model is successfully loaded!")
+                    completion(model)
+                }
+            })
     }
     
     func placeObject(object: ModelEntity, at location: SIMD3<Float>) {

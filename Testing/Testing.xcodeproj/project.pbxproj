@@ -23,7 +23,6 @@
 		80C2741B293291860077FCE8 /* NFTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2741A293291860077FCE8 /* NFTModel.swift */; };
 		80C2741F2932952F0077FCE8 /* cup_saucer_set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C2741E2932952F0077FCE8 /* cup_saucer_set.usdz */; };
 		80C274212932A1510077FCE8 /* sneaker_airforce.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C274202932A1510077FCE8 /* sneaker_airforce.usdz */; };
-		80C274272932B7D40077FCE8 /* Fancy_Picture_Frame.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C274262932B7D40077FCE8 /* Fancy_Picture_Frame.usdz */; };
 		80C2742A2932D5C60077FCE8 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 80C274292932D5C60077FCE8 /* FocusEntity */; };
 		80C274422932DC090077FCE8 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2743B2932DC090077FCE8 /* UICollectionView+Ext.swift */; };
 		80C274432932DC090077FCE8 /* UISearchTextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2743C2932DC090077FCE8 /* UISearchTextField+Ext.swift */; };
@@ -41,6 +40,12 @@
 		80C274582932DC720077FCE8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C274502932DC720077FCE8 /* LoginViewController.swift */; };
 		80C274592932DC720077FCE8 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C274512932DC720077FCE8 /* TopBarView.swift */; };
 		80C2745B2932DD930077FCE8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2745A2932DD930077FCE8 /* TabBarController.swift */; };
+		80C2745D29332CEB0077FCE8 /* PlaceBidVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2745C29332CEB0077FCE8 /* PlaceBidVC.swift */; };
+		80C274652933364E0077FCE8 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C274602933364B0077FCE8 /* teapot.usdz */; };
+		80C274662933364E0077FCE8 /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C274612933364B0077FCE8 /* tv_retro.usdz */; };
+		80C274672933364E0077FCE8 /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C274622933364C0077FCE8 /* gramophone.usdz */; };
+		80C274682933364E0077FCE8 /* wateringcan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C274632933364D0077FCE8 /* wateringcan.usdz */; };
+		80C274692933364E0077FCE8 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C274642933364E0077FCE8 /* chair_swan.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,7 +85,6 @@
 		80C2741A293291860077FCE8 /* NFTModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTModel.swift; sourceTree = "<group>"; };
 		80C2741E2932952F0077FCE8 /* cup_saucer_set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cup_saucer_set.usdz; sourceTree = "<group>"; };
 		80C274202932A1510077FCE8 /* sneaker_airforce.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sneaker_airforce.usdz; sourceTree = "<group>"; };
-		80C274262932B7D40077FCE8 /* Fancy_Picture_Frame.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Fancy_Picture_Frame.usdz; path = ../../../../Fancy_Picture_Frame.usdz; sourceTree = "<group>"; };
 		80C2743B2932DC090077FCE8 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
 		80C2743C2932DC090077FCE8 /* UISearchTextField+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchTextField+Ext.swift"; sourceTree = "<group>"; };
 		80C2743D2932DC090077FCE8 /* UITableView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
@@ -97,6 +101,12 @@
 		80C274502932DC720077FCE8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		80C274512932DC720077FCE8 /* TopBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
 		80C2745A2932DD930077FCE8 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		80C2745C29332CEB0077FCE8 /* PlaceBidVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceBidVC.swift; sourceTree = "<group>"; };
+		80C274602933364B0077FCE8 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
+		80C274612933364B0077FCE8 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = tv_retro.usdz; path = ../../../../../Downloads/tv_retro.usdz; sourceTree = "<group>"; };
+		80C274622933364C0077FCE8 /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gramophone.usdz; sourceTree = "<group>"; };
+		80C274632933364D0077FCE8 /* wateringcan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wateringcan.usdz; sourceTree = "<group>"; };
+		80C274642933364E0077FCE8 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,7 +191,11 @@
 		80C2740F29327DED0077FCE8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				80C274262932B7D40077FCE8 /* Fancy_Picture_Frame.usdz */,
+				80C274642933364E0077FCE8 /* chair_swan.usdz */,
+				80C274622933364C0077FCE8 /* gramophone.usdz */,
+				80C274602933364B0077FCE8 /* teapot.usdz */,
+				80C274612933364B0077FCE8 /* tv_retro.usdz */,
+				80C274632933364D0077FCE8 /* wateringcan.usdz */,
 				80C274202932A1510077FCE8 /* sneaker_airforce.usdz */,
 				80C2741E2932952F0077FCE8 /* cup_saucer_set.usdz */,
 				80C274162932818C0077FCE8 /* toy_robot_vintage.usdz */,
@@ -197,6 +211,7 @@
 				80C2740A293256E40077FCE8 /* ARView+Ext.swift */,
 				80C27408293244CA0077FCE8 /* TestViewController.swift */,
 				80C273D129323EDE0077FCE8 /* Experience.rcproject */,
+				80C2745C29332CEB0077FCE8 /* PlaceBidVC.swift */,
 			);
 			path = Experience;
 			sourceTree = "<group>";
@@ -341,13 +356,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80C274272932B7D40077FCE8 /* Fancy_Picture_Frame.usdz in Resources */,
+				80C274662933364E0077FCE8 /* tv_retro.usdz in Resources */,
 				80C274172932818C0077FCE8 /* toy_robot_vintage.usdz in Resources */,
 				80C273DA29323EE10077FCE8 /* LaunchScreen.storyboard in Resources */,
 				80C2741F2932952F0077FCE8 /* cup_saucer_set.usdz in Resources */,
+				80C274682933364E0077FCE8 /* wateringcan.usdz in Resources */,
+				80C274692933364E0077FCE8 /* chair_swan.usdz in Resources */,
+				80C274652933364E0077FCE8 /* teapot.usdz in Resources */,
 				80C273D729323EE10077FCE8 /* Assets.xcassets in Resources */,
 				80C274212932A1510077FCE8 /* sneaker_airforce.usdz in Resources */,
 				80C273D529323EDE0077FCE8 /* Main.storyboard in Resources */,
+				80C274672933364E0077FCE8 /* gramophone.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +407,7 @@
 				80C274432932DC090077FCE8 /* UISearchTextField+Ext.swift in Sources */,
 				80C274572932DC720077FCE8 /* BidCell.swift in Sources */,
 				80C274442932DC090077FCE8 /* UITableView+Ext.swift in Sources */,
+				80C2745D29332CEB0077FCE8 /* PlaceBidVC.swift in Sources */,
 				80C274472932DC090077FCE8 /* UIButton+Ext.swift in Sources */,
 				80C274552932DC720077FCE8 /* ExperienceView.swift in Sources */,
 				80C274422932DC090077FCE8 /* UICollectionView+Ext.swift in Sources */,

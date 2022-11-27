@@ -52,13 +52,18 @@ class HomeViewController: UIViewController {
             bid(image: "NFT6", name: "Tezos Owl #0004", hash: "ooczbkFZoTFFciS676e...", price: "500 XTZ")
         ]
         
-        self.navigationItem.hidesBackButton = true
+        self.navigationController?.navigationBar.isHidden = true
         view.backgroundColor = .white
     }
     
     @objc func didtapbox() {
-        let vc = ViewController()
-        self.navigationController?.pushViewController(vc, animated: false)
+        
+        DispatchQueue.main.async {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let destinationVC = storyboard.instantiateViewController(withIdentifier: "ARView") as! ViewController
+            destinationVC.modalPresentationStyle = .fullScreen
+            self.navigationController?.present(destinationVC, animated: false)
+        }
     }
     
     func setUpView(){
@@ -67,7 +72,7 @@ class HomeViewController: UIViewController {
         view.addSubview(mynftView)
         view.addSubview(bidCollectionView)
         
-        topBarView.anchor(top: view.safeAreaLayoutGuide.topAnchor, paddingTop: -50, bottom: nil, paddingBottom: 0, left: view.leftAnchor, paddingLeft: 16, right: view.rightAnchor, paddingRight: 16, width: 0, height: 0)
+        topBarView.anchor(top: view.safeAreaLayoutGuide.topAnchor, paddingTop: 20, bottom: nil, paddingBottom: 0, left: view.leftAnchor, paddingLeft: 16, right: view.rightAnchor, paddingRight: 16, width: 0, height: 0)
         
         boxView.anchor(top: topBarView.bottomAnchor, paddingTop: 34, bottom: nil, paddingBottom: 0, left: view.leftAnchor, paddingLeft: 30, right: view.rightAnchor, paddingRight: 30, width: 0, height: 60)
         

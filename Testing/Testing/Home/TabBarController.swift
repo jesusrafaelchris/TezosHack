@@ -22,9 +22,9 @@ override func viewDidAppear(_ animated: Bool) {
    
     // need to move this to custom button
     let groups = ProfileViewController()
-    let ticketImage = UIImage(systemName: "person.2")
-    let ticketselected = UIImage(systemName: "person.2.fill")
-    groups.tabBarItem = UITabBarItem(title: "Groups", image: ticketImage, selectedImage: ticketselected)
+    let ticketImage = UIImage(systemName: "person")
+    let ticketselected = UIImage(systemName: "persons.fill")
+    groups.tabBarItem = UITabBarItem(title: "Account", image: ticketImage, selectedImage: ticketselected)
 
     let tabbarList = [home, groups]
     
