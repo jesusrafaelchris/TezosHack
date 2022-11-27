@@ -78,10 +78,14 @@ class LoginViewController: UIViewController {
     }
     
     func goToHome() {
-        DispatchQueue.main.async {
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let destinationVC = storyboard.instantiateViewController(withIdentifier: "tabBar") as! TabBarController
-            self.navigationController?.pushViewController(destinationVC, animated: false)
+        
+        self.showSpinner(onView: view)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let destinationVC = storyboard.instantiateViewController(withIdentifier: "tabBar") as! TabBarController
+            
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(1)) {
+            self.removeSpinner()
+            self.navigationController?.pushViewController(destinationVC, animated: true)
         }
     }
     
@@ -116,16 +120,5 @@ class LoginViewController: UIViewController {
         eraseText.anchor(top: nil, paddingTop: 0, bottom: view.bottomAnchor, paddingBottom: 45, left: nil, paddingLeft: 0, right: nil, paddingRight: 0, width: 0, height: 0)
         eraseText.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
