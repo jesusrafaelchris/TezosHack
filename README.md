@@ -18,20 +18,9 @@ npm i
 node app
 ```
 
-## Usage
+##Images
 
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+<img src="https://user-images.githubusercontent.com/22798773/204132947-8bc34183-2bde-4bfd-a48e-cd073b080cdd.PNG" width="230" height="500"> | <img src="https://user-images.githubusercontent.com/22798773/204132950-94f23d5a-0cfe-4ec7-816c-2ec8af5a9f79.png" width="230" height="500"> | <img src="https://user-images.githubusercontent.com/22798773/204133003-d21808fc-2e63-44c5-8c32-f568fbc0c6e1.PNG" width="230" height="500"> | <img src="https://user-images.githubusercontent.com/22798773/204133058-f59627e3-2275-4db5-b7ac-6478988950b3.PNG" width="230" height="500"> 
 
 ## Tech
 
