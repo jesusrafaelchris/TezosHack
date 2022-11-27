@@ -37,7 +37,7 @@ Showcase uses a number of open source projects to work properly:
 - `RealityKit` - augmented reality package for iOS
 - `node.js` - evented I/O for the backend
 - `express.js` - fast node.js network app framework
-- `peppermint` - ???
+- `peppermint` - library to automate NFT minting
 
 ## Server
 
