@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80314ED829334E9000CA6488 /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80314ED729334E9000CA6488 /* tv_retro.usdz */; };
 		80C273CE29323EDE0077FCE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C273CD29323EDE0077FCE8 /* AppDelegate.swift */; };
 		80C273D029323EDE0077FCE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C273CF29323EDE0077FCE8 /* ViewController.swift */; };
 		80C273D229323EDE0077FCE8 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 80C273D129323EDE0077FCE8 /* Experience.rcproject */; };
@@ -42,7 +43,6 @@
 		80C2745B2932DD930077FCE8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2745A2932DD930077FCE8 /* TabBarController.swift */; };
 		80C2745D29332CEB0077FCE8 /* PlaceBidVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2745C29332CEB0077FCE8 /* PlaceBidVC.swift */; };
 		80C274652933364E0077FCE8 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C274602933364B0077FCE8 /* teapot.usdz */; };
-		80C274662933364E0077FCE8 /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C274612933364B0077FCE8 /* tv_retro.usdz */; };
 		80C274672933364E0077FCE8 /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C274622933364C0077FCE8 /* gramophone.usdz */; };
 		80C274682933364E0077FCE8 /* wateringcan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C274632933364D0077FCE8 /* wateringcan.usdz */; };
 		80C274692933364E0077FCE8 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80C274642933364E0077FCE8 /* chair_swan.usdz */; };
@@ -66,6 +66,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		80314ED729334E9000CA6488 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
 		80C273CA29323EDE0077FCE8 /* Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C273CD29323EDE0077FCE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80C273CF29323EDE0077FCE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,7 +104,6 @@
 		80C2745A2932DD930077FCE8 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		80C2745C29332CEB0077FCE8 /* PlaceBidVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceBidVC.swift; sourceTree = "<group>"; };
 		80C274602933364B0077FCE8 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
-		80C274612933364B0077FCE8 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = tv_retro.usdz; path = ../../../../../Downloads/tv_retro.usdz; sourceTree = "<group>"; };
 		80C274622933364C0077FCE8 /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gramophone.usdz; sourceTree = "<group>"; };
 		80C274632933364D0077FCE8 /* wateringcan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wateringcan.usdz; sourceTree = "<group>"; };
 		80C274642933364E0077FCE8 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
@@ -194,7 +194,7 @@
 				80C274642933364E0077FCE8 /* chair_swan.usdz */,
 				80C274622933364C0077FCE8 /* gramophone.usdz */,
 				80C274602933364B0077FCE8 /* teapot.usdz */,
-				80C274612933364B0077FCE8 /* tv_retro.usdz */,
+				80314ED729334E9000CA6488 /* tv_retro.usdz */,
 				80C274632933364D0077FCE8 /* wateringcan.usdz */,
 				80C274202932A1510077FCE8 /* sneaker_airforce.usdz */,
 				80C2741E2932952F0077FCE8 /* cup_saucer_set.usdz */,
@@ -356,11 +356,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80C274662933364E0077FCE8 /* tv_retro.usdz in Resources */,
 				80C274172932818C0077FCE8 /* toy_robot_vintage.usdz in Resources */,
 				80C273DA29323EE10077FCE8 /* LaunchScreen.storyboard in Resources */,
 				80C2741F2932952F0077FCE8 /* cup_saucer_set.usdz in Resources */,
 				80C274682933364E0077FCE8 /* wateringcan.usdz in Resources */,
+				80314ED829334E9000CA6488 /* tv_retro.usdz in Resources */,
 				80C274692933364E0077FCE8 /* chair_swan.usdz in Resources */,
 				80C274652933364E0077FCE8 /* teapot.usdz in Resources */,
 				80C273D729323EE10077FCE8 /* Assets.xcassets in Resources */,
