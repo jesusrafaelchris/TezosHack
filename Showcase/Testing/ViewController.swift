@@ -132,6 +132,11 @@ class ViewController: UIViewController {
         }
     }
     
+    
+    @IBAction func dismissView(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
+    
     func setupView() {
         view.addSubview(bottomView)
         bottomView.addSubview(MyNFTsLabel)

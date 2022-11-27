@@ -11,8 +11,8 @@ class LoginViewController: UIViewController {
     
     lazy var logoImage: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(named: "Logo")
-        imageView.contentMode = .scaleAspectFill
+        imageView.image = UIImage(named: "AR")
+        imageView.contentMode = .scaleAspectFit
         imageView.layer.masksToBounds = true
         imageView.layer.cornerRadius = 22
         return imageView
@@ -20,7 +20,7 @@ class LoginViewController: UIViewController {
     
     lazy var titleText: UILabel = {
         let titleText = UILabel()
-        titleText.layout(colour: .black, size: 30, text: "Testname", bold: true)
+        titleText.layout(colour: .black, size: 30, text: "Showcase", bold: true)
         return titleText
     }()
     
@@ -38,7 +38,7 @@ class LoginViewController: UIViewController {
     
     lazy var maskButton: UIButton = {
         let button = UIButton()
-        button.layout(textcolour: .white, backgroundColour: nil, size: 18, text: "MetaMask", image: nil, cornerRadius: nil)
+        button.layout(textcolour: .white, backgroundColour: nil, size: 18, text: "Log in with Beacon", image: nil, cornerRadius: nil)
         button.backgroundColor = .metaBlue
         button.layer.cornerRadius = 17
         button.layer.masksToBounds = true
@@ -48,7 +48,7 @@ class LoginViewController: UIViewController {
     
     lazy var metaImage: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(named: "MetaMaskIcon")
+        imageView.image = UIImage(named: "Beacon")
         return imageView
     }()
     
@@ -91,7 +91,7 @@ class LoginViewController: UIViewController {
         view.addSubview(titleText)
         
         view.addSubview(maskButton)
-        maskButton.addSubview(metaImage)
+        view.addSubview(metaImage)
         
         view.addSubview(troublesText)
         view.addSubview(eraseText)
@@ -100,12 +100,14 @@ class LoginViewController: UIViewController {
         
         logoImage.anchor(top: view.topAnchor, paddingTop: 175, bottom: nil, paddingBottom: 0, left: view.leftAnchor, paddingLeft: 75, right: nil, paddingRight: 0, width: 80, height: 80)
         
-        titleText.anchor(top: logoImage.topAnchor, paddingTop: 28, bottom: nil, paddingBottom: 0, left: logoImage.rightAnchor, paddingLeft: 16, right: nil, paddingRight: 0, width: 0, height: 0)
+        titleText.anchor(top: nil, paddingTop: 8, bottom: nil, paddingBottom: 0, left: logoImage.rightAnchor, paddingLeft: 16, right: nil, paddingRight: 0, width: 0, height: 0)
+        
+        titleText.centerYAnchor.constraint(equalTo: logoImage.centerYAnchor).isActive = true
         
         maskButton.anchor(top: nil, paddingTop: 0, bottom: troublesText.topAnchor, paddingBottom: 140, left: nil, paddingLeft: 0, right: nil, paddingRight: 0, width: 300, height: 50)
-        maskButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        maskButton.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 30).isActive = true
         
-        metaImage.anchor(top: nil, paddingTop: 0, bottom: nil, paddingBottom: 0, left: maskButton.leftAnchor, paddingLeft: 20, right: nil, paddingRight: 0, width: 35, height: 35)
+        metaImage.anchor(top: nil, paddingTop: 0, bottom: nil, paddingBottom: 0, left: nil, paddingLeft: 0, right: maskButton.leftAnchor, paddingRight: 10, width: 50, height: 50)
         metaImage.centerYAnchor.constraint(equalTo: maskButton.centerYAnchor).isActive = true
         
         troublesText.anchor(top: nil, paddingTop: 0, bottom: view.bottomAnchor, paddingBottom: 65, left: nil, paddingLeft: 0, right: nil, paddingRight: 0, width: 0, height: 0)
