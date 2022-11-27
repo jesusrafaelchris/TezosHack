@@ -28,10 +28,6 @@ node app
 
 ## Tech
 
- wal
-
-## Tech
-
 Showcase uses a number of open source projects to work properly:
 
 - `RealityKit` - augmented reality package for iOS
