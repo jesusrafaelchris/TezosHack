@@ -1,4 +1,5 @@
 # Showcase
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 Showcase is an augmented reality powered mobile dapp that empowers independent artists and curators, by enabling them to create their own pop-up art exhibition to display and sell their digital artwork.
 
@@ -24,6 +25,16 @@ foobar.pluralize('goose')
 # returns 'phenomenon'
 foobar.singularize('phenomena')
 ```
+
+## Tech
+
+Showcase uses a number of open source projects to work properly:
+
+- [RealityKit] - augmented reality package for iOS
+- [node.js] - evented I/O for the backend
+- [Express] - fast node.js network app framework [@tjholowaychuk]
+- [peppermint] - ???
+
 
 ## Contributing
 
