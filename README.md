@@ -42,6 +42,11 @@ Showcase uses a number of open source projects to work properly:
 - `express.js` - fast node.js network app framework
 - `peppermint` - ???
 
+## Server
+
+<img src="/images/server.png" title="Server Showing NFT's">
+
+
 
 ## Contributing
 
