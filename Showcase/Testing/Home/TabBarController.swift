@@ -10,6 +10,10 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         tabBar.tintColor = .orange
         tabBar.backgroundColor = .white
         tabBar.unselectedItemTintColor = .orange.withAlphaComponent(0.9)
+        tabBar.layer.shadowOffset = CGSize(width: 0, height: 0)
+        tabBar.layer.shadowRadius = 2
+        tabBar.layer.shadowColor = UIColor.black.cgColor
+        tabBar.layer.shadowOpacity = 0.2
 }
 
 // Tab Bar Specific Code

@@ -178,7 +178,7 @@ class ViewController: UIViewController {
         if let _ = arView.entity(at: location) as? ModelEntity {
             // show modal to buy
             let detailViewController = PlaceBidVC()
-            detailViewController.modalPresentationStyle = .fullScreen
+            detailViewController.modalPresentationStyle = .formSheet
             present(detailViewController, animated: true, completion: nil)
         }
         else {

@@ -44,12 +44,12 @@ class HomeViewController: UIViewController {
         boxView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didtapbox)))
         setUpView()
         bids = [
-            bid(image: "NFT1", name: "Tezos Owl #4712", hash: "op44hawk78gcTAxtL7C...", price: "300 XTZ"),
-            bid(image: "NFT2", name: "Tezos Owl #2951", hash: "onnjomhg6aSNQ2M3Co9...", price: "250 XTZ"),
-            bid(image: "NFT3", name: "Tezos Owl #8124", hash: "ooiY8eCqWyWYPrjn9Hh...", price: "200 XTZ"),
-            bid(image: "NFT4", name: "Tezos Owl #4712", hash: "onyH1geJG7fsZRsxvv4...", price: "300 XTZ"),
-            bid(image: "NFT5", name: "Tezos Owl #1094", hash: "opFkuxsy1LbKaLHEpJf...", price: "350 XTZ"),
-            bid(image: "NFT6", name: "Tezos Owl #0004", hash: "ooczbkFZoTFFciS676e...", price: "500 XTZ")
+            bid(image: "toy_robot_vintage", name: "NFT #4712", hash: "op44hawk78gcTAxtL7C...", price: "300 XTZ"),
+            bid(image: "teapot", name: "NFT #2951", hash: "onnjomhg6aSNQ2M3Co9...", price: "250 XTZ"),
+            bid(image: "sneaker_airforce", name: "NFT #8124", hash: "ooiY8eCqWyWYPrjn9Hh...", price: "200 XTZ"),
+            bid(image: "tv_retro", name: "NFT #4712", hash: "onyH1geJG7fsZRsxvv4...", price: "300 XTZ"),
+            bid(image: "wateringcan", name: "NFT #1094", hash: "opFkuxsy1LbKaLHEpJf...", price: "350 XTZ"),
+            bid(image: "chair_swan", name: "NFT #0004", hash: "ooczbkFZoTFFciS676e...", price: "500 XTZ")
         ]
         
         self.navigationController?.navigationBar.isHidden = true
