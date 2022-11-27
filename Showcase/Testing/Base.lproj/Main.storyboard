@@ -61,6 +61,17 @@
                                     <action selector="dismissView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="igI-bt-cdu"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RiV-g2-Soy">
+                                <rect key="frame" x="332" y="149" width="68" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <imageReference key="image" image="pencil.line" catalog="system" symbolScale="large"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="editMode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U5U-sS-ffO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Y2c-J8-DIj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -147,6 +158,7 @@
     <resources>
         <image name="arrow.down.right.and.arrow.up.left" catalog="system" width="128" height="117"/>
         <image name="arrow.uturn.backward" catalog="system" width="128" height="113"/>
+        <image name="pencil.line" catalog="system" width="128" height="98"/>
         <image name="trash" catalog="system" width="117" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
