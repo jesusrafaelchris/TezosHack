@@ -3,6 +3,9 @@
 
 Showcase is an augmented reality powered mobile dapp that empowers independent artists and curators, by enabling them to create their own pop-up art exhibition to display and sell their digital artwork.
 
+We have deployed a test server and it will be online for the day of the hackathon:
+http://139.162.208.155:3000/nft/list
+
 ## Installation
 
 Showcase requires [Node.js](https://nodejs.org/) v10+ to run.
