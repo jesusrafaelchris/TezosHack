@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		80314ED829334E9000CA6488 /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 80314ED729334E9000CA6488 /* tv_retro.usdz */; };
+		80314EDA29335A9D00CA6488 /* HTTPDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80314ED929335A9D00CA6488 /* HTTPDownloader.swift */; };
 		80C273CE29323EDE0077FCE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C273CD29323EDE0077FCE8 /* AppDelegate.swift */; };
 		80C273D029323EDE0077FCE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C273CF29323EDE0077FCE8 /* ViewController.swift */; };
 		80C273D229323EDE0077FCE8 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 80C273D129323EDE0077FCE8 /* Experience.rcproject */; };
@@ -67,6 +68,7 @@
 
 /* Begin PBXFileReference section */
 		80314ED729334E9000CA6488 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
+		80314ED929335A9D00CA6488 /* HTTPDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDownloader.swift; sourceTree = "<group>"; };
 		80C273CA29323EDE0077FCE8 /* Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C273CD29323EDE0077FCE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80C273CF29323EDE0077FCE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				80C2740F29327DED0077FCE8 /* Models */,
 				80C273CD29323EDE0077FCE8 /* AppDelegate.swift */,
 				80C273CF29323EDE0077FCE8 /* ViewController.swift */,
+				80314ED929335A9D00CA6488 /* HTTPDownloader.swift */,
 				80C2742B2932DBA60077FCE8 /* Experience */,
 				80C273D329323EDE0077FCE8 /* Main.storyboard */,
 				80C273D629323EE10077FCE8 /* Assets.xcassets */,
@@ -412,6 +415,7 @@
 				80C274552932DC720077FCE8 /* ExperienceView.swift in Sources */,
 				80C274422932DC090077FCE8 /* UICollectionView+Ext.swift in Sources */,
 				80C274522932DC720077FCE8 /* ProfileViewController.swift in Sources */,
+				80314EDA29335A9D00CA6488 /* HTTPDownloader.swift in Sources */,
 				80C274462932DC090077FCE8 /* UILabel+Ext.swift in Sources */,
 				80C274532932DC720077FCE8 /* BidStruct.swift in Sources */,
 				80C273D229323EDE0077FCE8 /* Experience.rcproject in Sources */,

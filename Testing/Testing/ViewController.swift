@@ -99,7 +99,7 @@ class ViewController: UIViewController {
         // 2 Tapping to add Objects
         arView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTap)))
         setupView()
-        let focusSquare = FocusEntity(on: self.arView, focus: .classic)
+        let _ = FocusEntity(on: self.arView, focus: .classic)
     }
     
     @IBAction func undo(_ sender: Any) {
